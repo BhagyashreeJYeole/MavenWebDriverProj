@@ -25,7 +25,9 @@ public class LoginTest {
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("9405212533");
 		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("bhavesh@2206");
-		
+	
+		System.out.println("Login failed");
+		System.out.println("Please login again");
 	}
 	
 	@Test
